@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 4],
+        "strict": ["error", "function"],
+        "no-trailing-spaces": "error",
+        "no-new-func": "error",
+        "no-octal-escape": "error",
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "guard-for-in": "error",
+        "no-div-regex": "error",
+        "no-loop-func": "error",
+        "no-unmodified-loop-condition": "error",
+        "semi": ["error", "always"],
+        "space-before-blocks": ["error", "always"],
+        "semi-spacing": ["error", {"before": false, "after": true}],
+        "space-infix-ops": ["error", {"int32Hint": false}],
+        "space-unary-ops": ["error", {"words": true, "nonwords": false}],
+        "brace-style": ["error", "1tbs"],
+        "space-in-parens": ["error", "never"],
+        "operator-linebreak": ["error", "after"],
+        "space-before-function-paren": ["error", "never"],
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "comma-spacing": "error"
+    }
+}
