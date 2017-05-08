@@ -1,18 +1,22 @@
 {
-  "name": "hwk-02",
-  "version": "0.0.1",
-  "description": "homework 02",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.19.0",
-    "mocha": "^3.3.0"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/eslint . && ./node_modules/.bin/mocha"
-  },
-  "author": "hakobpogh",
-  "license": "MIT"
+    "name": "hwk-02",
+    "version": "0.0.1",
+    "description": "homework 02",
+    "directories": {
+        "test": "test"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "eslint": "^3.19.0",
+        "gulp": "^3.9.1",
+        "gulp-eslint": "^3.0.1",
+        "gulp-mocha": "^4.3.1",
+        "gulp-util": "^3.0.8",
+        "mocha": "^3.3.0"
+    },
+    "scripts": {
+        "test": "gulp"
+    },
+    "author": "hakobpogh",
+    "license": "MIT"
 }
